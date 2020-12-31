@@ -50,7 +50,7 @@ public class ParkingLot {
         ArrayList<Car> myCollection = new ArrayList<>();
         myCollection.addAll(Arrays.asList(cars) );
 
-        myCollection.removeIf( p -> (p.brand.equals("BMW") && p.model.equals("m4")));
+        myCollection.removeIf( p -> !(p.brand.equals("BMW") && p.model.equals("m4")));
             // remove all the cars that are NOT BMW m4
 
         System.out.println(myCollection);
