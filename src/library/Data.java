@@ -16,6 +16,10 @@ public class Data {
 
     public String data3, data4, data5, data6;
 
+    public void method3(){
+
+    }
+
 
 
 }
