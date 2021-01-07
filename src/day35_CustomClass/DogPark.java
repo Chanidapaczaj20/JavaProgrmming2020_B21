@@ -1,4 +1,4 @@
-package day35_customClass;
+package day35_CustomClass;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

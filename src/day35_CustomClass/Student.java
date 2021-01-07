@@ -1,4 +1,4 @@
-package day35_customClass;
+package day35_CustomClass;
 
 public class Student {
 

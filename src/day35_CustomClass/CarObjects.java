@@ -1,6 +1,4 @@
-package day35_customClass;
-
-import java.util.concurrent.Callable;
+package day35_CustomClass;
 
 public class CarObjects {
 

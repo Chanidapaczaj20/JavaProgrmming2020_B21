@@ -1,6 +1,4 @@
-package day35_customClass;
-
-import sun.awt.ModalExclude;
+package day35_CustomClass;
 
 public class Car {
 

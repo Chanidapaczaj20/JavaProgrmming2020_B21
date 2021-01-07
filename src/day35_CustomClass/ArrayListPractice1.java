@@ -1,10 +1,9 @@
-package day35_customClass;
+package day35_CustomClass;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.function.Predicate;
 
 public class ArrayListPractice1 {
 
