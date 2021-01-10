@@ -1,7 +1,5 @@
 package Office_Hours.Practice_11_25_2020;
 
-import Day04_Variables.SalaryCalculator;
-
 import java.util.Scanner;
 
 public class LoopPractice2 {
