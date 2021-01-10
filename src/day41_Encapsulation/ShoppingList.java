@@ -12,8 +12,7 @@ public class ShoppingList {
                 new Item("sanitizer", 15, 30),
                 new Item("mask", 10, 225),
                 new Item ("Watermelon",  2,2.24),
-                new Item("toilet paper", 20, 50),
-                new Item("sanitizer", 15, 30),
+                new Item("toilet paper", 20, 50), new Item("sanitizer", 15, 30),
                 new Item("mask", 10, 225)
         ) );
 

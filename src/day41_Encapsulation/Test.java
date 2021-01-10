@@ -7,8 +7,18 @@ public class Test {
         //    System.out.println(Data.privateVariable);
         System.out.println(Data.defaultVariable);
 
+        Data obj = new Data();
+
+        Data.publicMethod();
+        Data.defaultMethod();
 
 
     }
+
+}
+
+
+class Test2{
+
 
 }
