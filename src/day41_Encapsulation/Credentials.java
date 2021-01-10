@@ -20,6 +20,10 @@ public class Credentials {
         this.userName = userName;
     }
 
+    public void setPassWord(double passWord){
+        this.passWord = passWord;
+    }
+
 
 
 

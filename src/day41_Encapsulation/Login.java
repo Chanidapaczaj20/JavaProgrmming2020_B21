@@ -9,7 +9,11 @@ public class Login {
         System.out.println(obj.getUserName());
         System.out.println(obj.getPassWord());
 
+        obj.setUserName("Hello");
+        System.out.println(obj.getUserName());
 
+        obj.setPassWord(789456);
+        System.out.println(obj.getPassWord());
 
 
 
