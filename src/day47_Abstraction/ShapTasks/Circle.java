@@ -23,3 +23,5 @@ public class Circle extends Shape {
 
 
 }
+// abstract นามธรรม concept
+// concrete รูปธรรม
