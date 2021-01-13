@@ -47,6 +47,12 @@ public class Restaurant {
         chefs.removeIf( p  -> p.ID.equals(ID)  );
     }
 
+    public String toString(){
+        return "Owner: "+owner +
+                "\nTotal Number of Employee:" + (servers.size() + chefs.size()) +
+                "\nservers: "+servers.size() +
+                "\nChefs: "+chefs.size();
+    }
 
 
 }
