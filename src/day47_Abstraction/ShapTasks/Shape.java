@@ -8,7 +8,7 @@ public abstract class Shape { // not concrete
         this.name = name;
     }
 
-    public abstract double area();
+    public abstract double area(); // what it is "matter, how it's done
     public abstract double perimeter();
 
 }
