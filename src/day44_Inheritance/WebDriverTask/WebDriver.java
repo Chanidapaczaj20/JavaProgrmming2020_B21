@@ -10,7 +10,7 @@ public class WebDriver {
     }
 
     public void get(String URL){
-        System.out.println("opening the default Remote driver");
+        System.out.println("opening "+URL+" from the Remote driver");
     }
 
     public void close(){
@@ -31,7 +31,7 @@ public class WebDriver {
 }
 
 /*
-1. create a class called RemoteWebDriver
+1. create a class called WebDriver
 			name, version
 			add a constructor to set the instances
 			get(URL), maximize(), close()
