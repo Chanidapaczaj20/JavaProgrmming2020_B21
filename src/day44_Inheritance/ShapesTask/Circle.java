@@ -14,7 +14,7 @@ public class Circle extends Shape {
     }
 
     public Circle(double radius) {
-        setInfo("Circle");
+        super("Circle");
         this.radius = radius;
         diameter = radius * 2;
     }
@@ -28,7 +28,9 @@ public class Circle extends Shape {
         return diameter * PI;
     }
 
+    public static void staticMethod() {
 
+    }
 
 
 

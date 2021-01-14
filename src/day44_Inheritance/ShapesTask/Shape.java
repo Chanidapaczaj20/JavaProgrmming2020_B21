@@ -4,7 +4,8 @@ public class Shape {
     public String name;
     public final static boolean isShape, hasArea,hasPerimeter;
 
-    public void setInfo(String name){
+    public Shape(String name){ // why we use setInfo ? ---> to initialised instances but not best way,
+                                        // advantage --> best way to initialised instances is constructors,
         this.name = name;
     }
 

@@ -13,8 +13,11 @@ public class ShapeObject {
         System.out.println(square);
 
         System.out.println(circle.calculateArea());
+     //   Circle.staticMethod();
+       // Circle.calculateArea(); // methods that are not static cannot be called from the class, only from instance
+     //   circle.staticMethod();
         System.out.println(rectangle.calculateArea());
-        System.out.println(square);
+        System.out.println(square.calculateArea());
 
 
     }

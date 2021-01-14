@@ -1,5 +1,5 @@
 package day44_Inheritance.ShapesTask;
-
+// สี่เหลี่ยมผืนผ้า กว้าง x ยาว
 public class Rectangle extends Shape {
 
     /*
@@ -10,7 +10,7 @@ public class Rectangle extends Shape {
     public double width, length;
 
     public Rectangle(double width, double length) {
-        setInfo("Rectangle");
+        super("Rectangle");
         this.width = width;
         this.length = length;
     }
@@ -21,7 +21,7 @@ public class Rectangle extends Shape {
 
 
     public double calculatePerimeter(){
-        return 0;
+        return (width+length)*2;
     }
 
 
