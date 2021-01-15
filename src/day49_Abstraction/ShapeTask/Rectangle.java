@@ -1,6 +1,6 @@
 package day49_Abstraction.ShapeTask;
 
-public class Rectangle extends Shape {
+public final class Rectangle extends Shape {
     public double w,l;
 
     public Rectangle(double w, double l) {
@@ -10,5 +10,15 @@ public class Rectangle extends Shape {
         }
         this.w = w;
         this.l = l;
+    }
+
+    @Override
+    public double area() {
+        return 0;
+    }
+
+    @Override
+    public double perimeter() {
+        return 0;
     }
 }
