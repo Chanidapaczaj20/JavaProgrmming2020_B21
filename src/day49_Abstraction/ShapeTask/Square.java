@@ -2,14 +2,15 @@ package day49_Abstraction.ShapeTask;
 
 public final class Square extends Shape {
 
-    public double side;
+    private double side;
 
     public Square(double side) {
         super("Square");
         if(side <= 0){
             throw new RuntimeException("No such a square with side of "+side);
         }
-        this.side = side;
+       // this.side = side;
+        getSide();
     }
 
 
@@ -24,9 +25,13 @@ public final class Square extends Shape {
     }
 
 
+    public double getSide() {
+        return side;
+    }
 
-
-
+    public void setSide(double side) {
+        this.side = side;
+    }
 }
 
 

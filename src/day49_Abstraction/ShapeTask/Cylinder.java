@@ -1,7 +1,7 @@
 package day49_Abstraction.ShapeTask;
 
 public final class Cylinder extends Shape implements Volume {
-    public double r, d, h;
+    private double r, d, h;
     public final static double PI = 3.14;
 
     public Cylinder(double r, double h) {
@@ -9,9 +9,10 @@ public final class Cylinder extends Shape implements Volume {
         if( r<= 0 || h <=0){
             throw new RuntimeException("No such a cylinder with radius and height of "+r+" "+h);
         }
-        this.r= r;
+
+        /*this.r= r;
         d = r * 2;
-        this.h = h;
+        this.h = h;*/
     }
 
     @Override
@@ -40,12 +41,27 @@ public final class Cylinder extends Shape implements Volume {
                 '}';
     }
 
+    public double getR() {
+        return r;
+    }
 
+    public void setR(double r) {
+        this.r = r;
+    }
 
+    public double getD() {
+        return d;
+    }
 
+    public void setD(double d) {
+        this.d = d;
+    }
 
+    public double getH() {
+        return h;
+    }
 
-
-
-
+    public void setH(double h) {
+        this.h = h;
+    }
 }

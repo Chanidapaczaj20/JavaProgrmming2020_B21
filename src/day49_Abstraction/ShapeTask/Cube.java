@@ -1,7 +1,7 @@
 package day49_Abstraction.ShapeTask;
 
 public final class Cube extends Shape implements Volume{
-    public double side;
+    private double side;
 
     public Cube(double side) {
         super("Cube");
@@ -38,5 +38,12 @@ public final class Cube extends Shape implements Volume{
                 '}';
     }
 
+    public double getSide() {
+        return side;
+    }
+
+    public void setSide(double side) {
+        this.side = side;
+    }
 
 }
