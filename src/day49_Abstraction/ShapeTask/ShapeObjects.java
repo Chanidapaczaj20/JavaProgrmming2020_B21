@@ -14,6 +14,10 @@ public class ShapeObjects {
         System.out.println(cylinder);
         System.out.println(square);
 
+        System.out.println(circle.getR());
+
+
+
 
 
 

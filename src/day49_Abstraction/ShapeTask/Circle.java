@@ -1,19 +1,19 @@
 package day49_Abstraction.ShapeTask;
 
 public final class Circle extends Shape {
-    public  double r;
-    public double d;
+    private double r;
+    private double d;
     public final static double PI = 3.14;
 
-    public Circle( double r) {
+    public Circle(double r) {
         super("Circle");
-        if (r <= 0){
+        if( r <= 0){
             throw new RuntimeException("No Such a circle with radius of "+r);
         }
-
-        this.r = r;
-         d = r * 2;
+        setR(r);
+        setD( r * 2);
     }
+
 
     @Override
     public double area() {
@@ -24,4 +24,23 @@ public final class Circle extends Shape {
     public double perimeter() {
         return d * PI;
     }
+
+    public double getR() {
+        return r;
+    }
+
+    public void setR(double r) {
+        this.r = r;
+    }
+
+    public double getD() {
+        return d;
+    }
+
+    public void setD(double d) {
+        this.d = d;
+    }
 }
+
+
+
