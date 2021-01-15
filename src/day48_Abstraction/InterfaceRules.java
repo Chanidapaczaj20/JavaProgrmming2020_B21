@@ -1,6 +1,6 @@
 package day48_Abstraction;
 
-public interface InterfaceRules {
+public interface InterfaceRules { // can't be final
 
     int a = 100;// public static final by default ---> ไม่จำเป็นต้องใส่ is auto compiler
 

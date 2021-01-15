@@ -2,7 +2,7 @@ package day40_Constructor;
 
 public class ConstructorCall {
 
-    public ConstructorCall(){
+    public ConstructorCall() {
         System.out.println("Default constructor");
     }
 
