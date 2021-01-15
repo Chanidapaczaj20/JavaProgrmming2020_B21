@@ -13,11 +13,12 @@ public class Octagon extends Shape {
     public double area() {
         return 0;
     }
-
+// you can overload if you need it
     @Override
     public double perimeter() {
         return 0;
     }
+
 
 
 }
