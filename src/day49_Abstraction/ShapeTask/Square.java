@@ -15,12 +15,12 @@ public final class Square extends Shape {
 
     @Override
     public double area() {
-        return 0;
+        return side*side;
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return side*4;
     }
 
 
