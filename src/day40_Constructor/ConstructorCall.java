@@ -9,7 +9,7 @@ public class ConstructorCall {
     public ConstructorCall(int a){ // default, int
         // ConstructorCall();
         this(); // calling the default constructor
-        System.out.println("Constructor with int arg");
+        System.out.println("Constructor with int args");
     }
 
     public ConstructorCall(String str){ // dfeault, int, string

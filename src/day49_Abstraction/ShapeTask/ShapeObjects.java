@@ -19,6 +19,14 @@ public class ShapeObjects {
         System.out.println(circle.getR());
 
         System.out.println("-----------------------------------");
+        // Shape shape1 = circle;
+        // Shape shape2 = rectangle;
+        // Shape shape3 = cylinder;
+        // Shape shape4 = cube;
+        // Shape shape5 = square;
+
+
+
 
 
 
