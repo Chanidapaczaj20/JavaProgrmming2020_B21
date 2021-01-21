@@ -19,7 +19,7 @@ public class Shape {
         this.name = name;
     }
 
-    public double area(){
+    public  double area(){
         return 0;
     }
 

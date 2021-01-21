@@ -21,7 +21,7 @@ public class ConstructorCall {
 
 
     public static void main(String[] args) {
-        ConstructorCall obj1 = new ConstructorCall("A");
+        ConstructorCall obj1 = new ConstructorCall(4);
 
     }
 
