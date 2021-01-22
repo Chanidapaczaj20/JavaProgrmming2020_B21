@@ -33,6 +33,7 @@ public class ReferenceCasting {
         Animal animal =  new Dog("Lucy", "Husky", 'M',12, "White", "Small");  // upcasting
         Dog dog = (Dog)animal;
         dog.bark();
+        ((Cat)animal).meow();
 
         Animal animal2 = new Cat("Lucy", "Husky", 'M',12, "White", "Small");
         //  ( (Cat)animal2  ).meow();

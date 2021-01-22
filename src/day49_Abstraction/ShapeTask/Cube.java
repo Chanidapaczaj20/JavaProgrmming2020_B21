@@ -13,7 +13,7 @@ public final class Cube extends Shape implements Volume{
 
     @Override
     public double volume() {
-        return 0;
+        return side * side * side;
     }
 
     @Override
